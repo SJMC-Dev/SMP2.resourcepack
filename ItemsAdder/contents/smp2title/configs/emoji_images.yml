@@ -1,0 +1,9 @@
+info:
+  namespace: "smp2title"
+font_images:
+  admin:
+    permission: 0
+    show_in_gui: true
+    path: "font/emoji/admin.png"
+    scale_ratio: 6
+    y_position: 5
