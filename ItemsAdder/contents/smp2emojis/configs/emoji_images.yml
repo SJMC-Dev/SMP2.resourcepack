@@ -1,0 +1,9 @@
+info:
+  namespace: "smp2emojis"
+font_images:
+  ynk:
+    permission: 0
+    show_in_gui: true
+    path: "font/emoji/ynk.png"
+    scale_ratio: 9
+    y_position: 8
