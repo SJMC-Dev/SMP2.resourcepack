@@ -1,0 +1,7 @@
+{
+	"effects.castmagic":{
+		"sounds":[
+			"smp2items:effects/castmagic"
+		]
+	}
+}

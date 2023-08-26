@@ -1,0 +1,11 @@
+info:
+  namespace: smp2items
+items:
+  gadus_morhua:
+    display_name: '大西洋鳕鱼'
+    permission: gadus_morhua
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - items/gadus_morhua.png
