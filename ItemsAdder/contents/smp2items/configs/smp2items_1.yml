@@ -5,6 +5,7 @@ items:
     display_name: '%#0086D1%源初的回响'
     lore:
     - '&f右键使用传送到主城'
+    - '&f一旦启用即消耗耐久'
     - '%#0086D1%&l稀有级'
     permission: hearthstone
     durability:
@@ -23,20 +24,14 @@ items:
     - HIDE_UNBREAKABLE
     blocked_enchants:
     - ALL
-    all_actions_permission: 'smp2items.usage.hearthstone'
     events_cooldown: 1200
     events:
       interact:
         right:
           decrement_durability:
             amount: 1
-          play_sound:
-            name: smp2items:effects.castmagic
-            volume: 1
-            pitch: 1 
           execute_commands:
-            cmd1:
-              command: 'tellraw {player} {"text":"正在传送到主城","color":"gold"}'
-            cmd2:
-              command: '/mv spawn {player}'
-              delay: 5
+            cmd:
+              command: 'Hearthstone {player}'
+              as_console: true
+            

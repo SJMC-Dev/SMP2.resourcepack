@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/shears"},"overrides":[{"predicate":{"custom_model_data":10000},"model":"smp2items:ia_auto_gen/hearthstone"},{"predicate":{"custom_model_data":10001},"model":"item/shears"}]}

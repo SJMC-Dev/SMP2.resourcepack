@@ -1,1 +1,0 @@
-# It’s a content file folder for Itemsadder in SMP2
